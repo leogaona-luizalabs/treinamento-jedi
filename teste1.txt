@@ -3,3 +3,5 @@ segundo commit - lais bbbbb
 edicao do segundo commit
 terceiro commit
 teste de brnach 2
+conflito para merge
+
