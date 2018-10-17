@@ -1,0 +1,39 @@
+Api banco
+
+Conta corrente
+get /conta/{idConta}/corrente/extrato
+post /conta/corrente
+{
+"cpf":123,
+"nome": "lais",
+"banco": 123
+}
+put /conta/{IdConta}?{Value}/corrente
+
+
+
+Transferencia
+
+post /conta/transferencia
+{
+"cpf":123,
+"banco": 123,
+"valor": 3.00
+}
+
+investimento
+
+get /conta/{idInvestimento}/investimento
+post /conta/investimento
+{
+"cpf":123,
+"banco": 123,
+"conta"123,
+"tipoInvestimento" poupanca,
+"valor" 4.00 
+}
+put /conta/{idInvestimento}?{Value}/investimento
+
+
+
+
